@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Игра "Жизнь"</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="controls">
+      <button id="startBtn">Старт</button>
+      <button id="stopBtn">Стоп</button>
+      <button id="resetBtn">Сброс</button>
+      <button id="randomBtn">Случайная генерация</button>
+      <label for="rows">Строки:</label>
+      <input type="number" id="rows" value="100" min="10" max="2000" />
+      <label for="cols">Столбцы:</label>
+      <input type="number" id="cols" value="100" min="10" max="2000" />
+      <span id="generationTime">Время генерации: 0 мс</span>
+    </div>
+    <canvas id="gameArea"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
