@@ -18,7 +18,6 @@
 
    ```bash
    git clone https://github.com/WoobotGJR/life-the-game.git
-   cd жизнь
    ```
 
 2. Откройте `index.html` в любом веб-браузере.
